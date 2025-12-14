@@ -268,7 +268,6 @@ VITE_APP_NAME=Prime Trade AI
 |--------|----------|-------------|------|
 | POST | `/api/v1/auth/register` | Register new user | ❌ |
 | POST | `/api/v1/auth/login` | Login user | ❌ |
-| POST | `/api/v1/auth/logout` | Logout user | ✅ |
 
 ### Products
 | Method | Endpoint | Description | Auth | Role |
@@ -279,12 +278,6 @@ VITE_APP_NAME=Prime Trade AI
 | PUT | `/api/v1/products/:id` | Update product | ✅ | Admin |
 | DELETE | `/api/v1/products/:id` | Delete product | ✅ | Admin |
 
-### Users
-| Method | Endpoint | Description | Auth | Role |
-|--------|----------|-------------|------|------|
-| GET | `/api/v1/users/profile` | Get own profile | ✅ | User/Admin |
-| PUT | `/api/v1/users/profile` | Update own profile | ✅ | User/Admin |
-| GET | `/api/v1/users` | Get all users | ✅ | Admin |
 
 ---
 

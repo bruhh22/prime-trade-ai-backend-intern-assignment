@@ -25,6 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 const allowedOrigins = [
     'http://localhost:5173', // local dev frontend
     'http://localhost:3000', // optional
+    'http://localhost:5000', // swagger-docs
     process.env.CLIENT_URL,  // deployed frontend
 ];
 
