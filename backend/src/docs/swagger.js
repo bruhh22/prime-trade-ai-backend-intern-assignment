@@ -1,7 +1,7 @@
 export const swaggerDocument = {
     openapi: '3.0.0',
     info: {
-        title: 'Intern Project API',
+        title: 'PrimeTrade Project API',
         version: '1.0.0',
         description: 'REST API for User Auth and Product Management',
     },
