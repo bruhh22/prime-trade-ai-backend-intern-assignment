@@ -1,0 +1,68 @@
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Runtime / build output
+# =========================
+dist/
+build/
+coverage/
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Cache / temp files
+# =========================
+.cache/
+.tmp/
+temp/
+
+# =========================
+# MongoDB / database
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Docker (optional later)
+# =========================
+docker-data/
+.env.docker
+
+# =========================
+# Redis (optional later)
+# =========================
+dump.rdb
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
