@@ -1,9 +1,13 @@
 import { config } from './config/env.js';
 import { connectDB } from './config/db.js';
+import { connectRedis } from './cache/redis.client.js';
 import app from './app.js';
 
 // 1. Connect to Database
 connectDB();
+
+// 1.5 Connect to Redis (optional)
+connectRedis();
 
 // 2. Start Server
 const server = app.listen(config.port, () => {
